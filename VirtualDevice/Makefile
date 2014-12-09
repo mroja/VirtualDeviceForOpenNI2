@@ -7,7 +7,7 @@ XNLIB_INC = ../../kinect/ThirdParty/PSCommon/XnLib/Include
 
 CC = g++
 
-TARGET = VirtualDevice
+TARGET = libVirtualDevice
 OBJS = VirtualDevice.o
 
 $(TARGET).so: $(OBJS)
